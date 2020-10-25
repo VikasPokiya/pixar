@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+.inner-top-bg {
+    height: 100%;
+    background-image: url(feture_img/th-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_fe p {
+    font-size: 18px;
+    line-height: 35px;
+    color: gray;
+    font-family: futura bk bt;
+    padding: 10px 0;
+}
+.hr {
+    margin: 30px auto 50px auto;
+    width: 25%;
+    display: block;
+}
+.poster-img div {
+    width: 25%;
+    float: left;
+    height: 400px;
+}
+.poster-img img {
+    margin-top: 20px;
+    height: 80%;
+    display: block;
+    margin: auto;
+}
+.poster-img p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 15px;
+    color: #7c7c7c;
+    font-family: futura bk bt;
+}
+#footer {
+    padding: 100px 130px 100px 130px;
+    width: 100%;
+    float: left;
+}
+#footer p {
+    margin: auto;
+}
+@media (max-width: 1180px) {
+    .poster-img div {
+        width: 33%;
+        height: 500px;
+    }
+}
+@media (max-width: 1000px) {
+    .poster-img div {
+        width: 50%;
+        height: 600px;
+    }
+    .poster-img img {
+        height: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .poster-img div {
+        width: 50%;
+        height: 400px;
+    }
+    .poster-img img {
+        height: 80%;
+    }
+}

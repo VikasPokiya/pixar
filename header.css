@@ -1,0 +1,85 @@
+#header {
+    padding: 35px 140px;
+}
+#header div {
+    display: inline;
+}
+.logo img {
+    width: 150px;
+}
+.menu {
+    float: right;
+}
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 15px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-family: futura bk bt;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+.menu ul li a:hover {
+    color: #a5a5a5;
+}
+@media (max-width: 1180px) {
+    #header {
+        padding: 20px 0;
+    }
+    #header div {
+        display: block;
+    }
+    .logo img {
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+    .menu,
+    .menu ul li {
+        float: none;
+        padding: 10px 15px;
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .logo img {
+    width: 140px;
+}
+}
+@media (max-width: 600px) {
+	#header {
+        padding: 0;
+    }
+    #header div {
+        display: block;
+		margin: 0;
+    }
+    .logo img {
+    width: 120px;
+	margin: 20px auto 0 auto;
+	display: block; 
+}
+}
+@media (max-width: 375px) {
+	#header {
+        padding: 0;
+    }
+    #header div {
+        display: block;
+		margin: 0;
+    }
+    .logo img {
+    width: 120px;
+	margin: 20px auto 0 auto;
+	display: block; 
+}
+}
+
